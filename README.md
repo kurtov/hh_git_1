@@ -24,7 +24,7 @@ git add .
 git commit -m "modify C.txt from repoB"
 git fetch
 git merge
-open -a TextEdit C.txt
+echo "hello world" > C.txt
 git add .
 git commit -m "resolve conflicg"
 cd ../repoA
